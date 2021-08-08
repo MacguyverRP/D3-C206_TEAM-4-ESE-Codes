@@ -1,4 +1,3 @@
-package transaction;
 
 /**
  * I declare that this code was written by me.
