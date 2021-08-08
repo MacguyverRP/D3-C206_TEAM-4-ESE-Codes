@@ -5,5 +5,13 @@ public class C206_CaseStudy {
 		// TODO Auto-generated method stub
 
 	}
+	
+	public void start() {
+		String jdbcURL = "jdbc:mysql://localhost/demodb/crt_product";
+		String dbUsername = "root";
+		String dbPassword = "";
+
+		DBUtil.init(jdbcURL, dbUsername, dbPassword);
+	}
 
 }
